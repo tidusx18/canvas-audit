@@ -72,14 +72,18 @@ window.opener.postMessage('', 'https://fiu.instructure.com');
 
 function receiveMessage(event) {
 
-    if (event.origin !== 'https://fiu.instructure.com') { return; }
+    try {
 
-    document.title = `${event.data.title} Audit Report`;
+        if (event.origin !== 'https://fiu.instructure.com') { return; }
 
-    let source   = document.getElementById("entry-template").innerHTML;
-    let template = Handlebars.compile(source);
-    let html = template(event.data);
+        document.title = `${event.data.title} Audit Report`;
 
-    document.body.innerHTML = html;
+        let source   = document.getElementById("entry-template").innerHTML;
+        let template = Handlebars.compile(source);
+        let html = template(event.data);
+
+        document.body.innerHTML = html;
+
+    } catch(err) { console.log(err) }
 
 }
