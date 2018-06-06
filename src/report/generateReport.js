@@ -72,18 +72,24 @@ window.opener.postMessage('', 'https://fiu.instructure.com');
 
 function receiveMessage(event) {
 
-    try {
-
         if (event.origin !== 'https://fiu.instructure.com') { return; }
 
         document.title = `${event.data.title} Audit Report`;
 
-        let source   = document.getElementById("entry-template").innerHTML;
-        let template = Handlebars.compile(source);
-        let html = template(event.data);
+        let scriptElem = document.getElementById('entry-template');
 
-        document.body.innerHTML = html;
+        fetch('https://raw.githubusercontent.com/tidusx18/canvas-audit/master/src/report/handlebars-template.hbs')
+        .then( data => data.text() )
+        .then( data => {
 
-    } catch(err) { console.log(err) }
+            scriptElem.innerHTML = data;
+
+            let source   = document.getElementById("entry-template").innerHTML;
+            let template = Handlebars.compile(source);
+            let html = template(event.data);
+
+            document.body.innerHTML = html;
+
+        });
 
 }

@@ -435,7 +435,7 @@
 			"file": "dist/CanvasAuditBuild.user.js",
 			"settings":
 			{
-				"buffer_size": 12965,
+				"buffer_size": 13441,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -450,10 +450,61 @@
 			}
 		},
 		{
-			"file": "notes.txt",
+			"file": "webpack.config.js",
 			"settings":
 			{
-				"buffer_size": 203,
+				"buffer_size": 211,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 554,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "[\n{\n    \"id\": 75818,\n    \"name\": \"Module 1\",\n    \"position\": 1,\n    \"unlock_at\": null,\n    \"require_sequential_progress\": false,\n    \"publish_final_grade\": false,\n    \"prerequisite_module_ids\": [],\n    \"published\": true,\n    \"items_count\": 8,\n    \"items_url\": \"https://fiu.instructure.com/api/v1/courses/274/modules/75818/items\",\n    \"moduleItems\": [\n    {\n        \"id\": 518062,\n        \"title\": \"Just a Header\",\n        \"position\": 1,\n        \"indent\": 0,\n        \"type\": \"SubHeader\",\n        \"module_id\": 75818,\n        \"published\": false\n    },\n    {\n        \"id\": 518063,\n        \"title\": \"Turnitin Test\",\n        \"position\": 2,\n        \"indent\": 0,\n        \"type\": \"Assignment\",\n        \"module_id\": 75818,\n        \"html_url\": \"https://fiu.instructure.com/courses/274/modules/items/518063\",\n        \"content_id\": 135614,\n        \"url\": \"https://fiu.instructure.com/api/v1/courses/274/assignments/135614\",\n        \"published\": true,\n        \"content\":\n        {\n            \"id\": 135614,\n            \"description\": \"<p><a href=\\\"http://example.com\\\">Lorem</a> ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>\\r\\n<p style=\\\"font-family: somecrazyfont;\\\"><strong><span style=\\\"color: #ff0000;\\\">some other font</span></strong></p>\\r\\n<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>\",\n            \"due_at\": null,\n            \"unlock_at\": null,\n            \"lock_at\": \"2018-01-27T04:59:59Z\",\n            \"points_possible\": 0,\n            \"grading_type\": \"points\",\n            \"assignment_group_id\": 940,\n            \"grading_standard_id\": null,\n            \"created_at\": \"2018-05-02T16:52:30Z\",\n            \"updated_at\": \"2018-05-14T18:42:04Z\",\n            \"peer_reviews\": false,\n            \"automatic_peer_reviews\": false,\n            \"position\": 17,\n            \"grade_group_students_individually\": false,\n            \"anonymous_peer_reviews\": false,\n            \"group_category_id\": null,\n            \"post_to_sis\": false,\n            \"moderated_grading\": false,\n            \"omit_from_final_grade\": false,\n            \"intra_group_peer_reviews\": false,\n            \"anonymous_instructor_annotations\": false,\n            \"anonymous_grading\": false,\n            \"secure_params\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsdGlfYXNzaWdubWVudF9pZCI6IjMxMTAxYjBkLWYwNjYtNGFmMy1iODliLTY0N2JlNTI4MzlkMyJ9.0Tfyqfxf33eLry8w1gGEbxZwhf1vbeJBe9Uwc8_f4rs\",\n            \"course_id\": 274,\n            \"name\": \"Turnitin Test\",\n            \"submission_types\": [\"external_tool\"],\n            \"has_submitted_submissions\": false,\n            \"due_date_required\": false,\n            \"max_name_length\": 255,\n            \"in_closed_grading_period\": false,\n            \"is_quiz_assignment\": false,\n            \"can_duplicate\": false,\n            \"original_assignment_id\": null,\n            \"original_assignment_name\": null,\n            \"workflow_state\": \"published\",\n            \"external_tool_tag_attributes\":\n            {\n                \"url\": \"https://api.turnitin.com/api/lti/1p0/assignment\",\n                \"new_tab\": false,\n                \"resource_link_id\": \"ce07d17bf12fe73df7f624a315c5762cc4de619e\"\n            },\n            \"muted\": false,\n            \"html_url\": \"https://fiu.instructure.com/courses/274/assignments/135614\",\n            \"has_overrides\": false,\n            \"url\": \"https://fiu.instructure.com/api/v1/courses/274/external_tools/sessionless_launch?assignment_id=135614&launch_type=assessment\",\n            \"needs_grading_count\": 0,\n            \"integration_id\": null,\n            \"integration_data\":\n            {},\n            \"use_rubric_for_grading\": true,\n            \"free_form_criterion_comments\": false,\n            \"rubric\": [\n            {\n                \"id\": \"_9534\",\n                \"points\": 5,\n                \"description\": \"Description of criterion\",\n                \"long_description\": null,\n                \"criterion_use_range\": false,\n                \"ratings\": [\n                {\n                    \"id\": \"blank\",\n                    \"points\": 5,\n                    \"description\": \"Full Marks\",\n                    \"long_description\": \"\"\n                },\n                {\n                    \"id\": \"blank_2\",\n                    \"points\": 0,\n                    \"description\": \"No Marks\",\n                    \"long_description\": \"\"\n                }]\n            }],\n            \"rubric_settings\":\n            {\n                \"id\": 10312,\n                \"title\": \"Some Rubric (1)\",\n                \"points_possible\": 5,\n                \"free_form_criterion_comments\": false\n            },\n            \"published\": true,\n            \"unpublishable\": true,\n            \"only_visible_to_overrides\": false,\n            \"locked_for_user\": false,\n            \"submissions_download_url\": \"https://fiu.instructure.com/courses/274/assignments/135614/submissions?zip=1\"\n        },\n        \"auditResults\":\n        {\n            \"images\": [],\n            \"links\": [\n            {\n                \"href\": \"http://example.com/\",\n                \"title\": null,\n                \"anchorText\": \"Lorem\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            }],\n            \"text\":\n            {\n                \"allCaps\": false,\n                \"underlinedWords\": false,\n                \"fontFamily\": true,\n                \"fontSize\": false\n            },\n            \"videos\": null\n        }\n    },\n    {\n        \"id\": 518064,\n        \"title\": \"TinyMCE Icon Template Test-2\",\n        \"position\": 3,\n        \"indent\": 0,\n        \"type\": \"Page\",\n        \"module_id\": 75818,\n        \"html_url\": \"https://fiu.instructure.com/courses/274/modules/items/518064\",\n        \"page_url\": \"tinymce-icon-template-test-2\",\n        \"url\": \"https://fiu.instructure.com/api/v1/courses/274/pages/tinymce-icon-template-test-2\",\n        \"published\": true,\n        \"content\":\n        {\n            \"title\": \"TinyMCE Icon Template Test-2\",\n            \"created_at\": \"2018-05-02T16:52:27Z\",\n            \"url\": \"tinymce-icon-template-test-2\",\n            \"editing_roles\": \"teachers\",\n            \"page_id\": 400671,\n            \"last_edited_by\":\n            {\n                \"id\": 496,\n                \"display_name\": \"Daniel Victoriano\",\n                \"avatar_image_url\": \"https://fiu.instructure.com/images/messages/avatar-50.png\",\n                \"html_url\": \"https://fiu.instructure.com/courses/274/users/496\"\n            },\n            \"published\": true,\n            \"hide_from_students\": false,\n            \"front_page\": false,\n            \"html_url\": \"https://fiu.instructure.com/courses/274/pages/tinymce-icon-template-test-2\",\n            \"updated_at\": \"2018-05-22T20:25:28Z\",\n            \"locked_for_user\": false,\n            \"body\": \"<div style=\\\"display: flex;\\\">\\r\\n<div id=\\\"wiki_page_body_col1\\\" style=\\\"min-width: 100px; max-width: 100px; padding: 0px 15px 0px 0px;\\\"><img style=\\\"width: 100px; max-width: 20px;\\\" src=\\\"https://s3.amazonaws.com/vivomedia.fiu.edu/565c6ef653560/Review.png\\\" alt=\\\"Assignment\\\"></div>\\r\\n<div style=\\\"display: flex;\\\">\\r\\n<div id=\\\"wiki_page_body_col2\\\">\\r\\n<p>Select link above or on the \\\"<span style=\\\"text-decoration: underline;\\\">Assignment</span>\\\" link on the course menu to the left of the screen in <a href=\\\"http://xid-someid.com/someBbpage\\\">order </a>to submit your post by the due date noted in the syllabus.</p>\\r\\n<p><span style=\\\"text-decoration: underline;\\\">Lorem</span> ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>\\r\\n<p style=\\\"font-family: someFont;\\\"><a class=\\\"instructure_file_link instructure_scribd_file\\\" title=\\\"Cyber Security Training Complete.pdf\\\" href=\\\"https://fiu.instructure.com/courses/274/files/1532677/download\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/files/1532677\\\" data-api-returntype=\\\"File\\\">some other font</a></p>\\r\\n<p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br><br>ASDLKNSADLKSANDLASKNDSALKDNaslkdnasldknasldknaLASKNDASLKDNSALDKNasldknasldknasldknasl</p>\\r\\n<p> </p>\\r\\n<p><iframe style=\\\"width: 640px; height: 480px;\\\" title=\\\"10 Amazing Robots That Really Exist\\\" src=\\\"https://www.youtube.com/embed/sZ_-yb-TN9M?feature=oembed&amp;rel=0\\\" width=\\\"640\\\" height=\\\"480\\\" allowfullscreen=\\\"allowfullscreen\\\" webkitallowfullscreen=\\\"webkitallowfullscreen\\\" mozallowfullscreen=\\\"mozallowfullscreen\\\"></iframe></p>\\r\\n</div>\\r\\n</div>\\r\\n</div>\\r\\n<div style=\\\"display: -webkit-box;\\\">\\r\\n<div class=\\\"row\\\"><img style=\\\"width: 100px;\\\" src=\\\"https://s3.amazonaws.com/vivomedia.fiu.edu/acd03bb4-ddbe-468e-818f-052ff46e9a10/source.png\\\"></div>\\r\\n<div class=\\\"col-md-10 editable\\\">\\r\\n<h4>Affordability Counts</h4>\\r\\nThis course has been awarded the Affordability Counts Medallion. The Affordability Counts initiative at FIU seeks to make learning more affordable by reducing the cost of course materials to $60 or less. Find out more by visiting the Affordability Counts website at <a href=\\\"http://lowcost.fiu.edu\\\" target=\\\"_new\\\">lowcost.fiu.edu.</a>\\n</div>\\r\\n</div>\"\n        },\n        \"auditResults\":\n        {\n            \"images\": [\n            {\n                \"alt\": \"Assignment\",\n                \"src\": \"https://s3.amazonaws.com/vivomedia.fiu.edu/565c6ef653560/Review.png\"\n            },\n            {\n                \"alt\": null,\n                \"src\": \"https://s3.amazonaws.com/vivomedia.fiu.edu/acd03bb4-ddbe-468e-818f-052ff46e9a10/source.png\"\n            }],\n            \"links\": [\n            {\n                \"href\": \"http://xid-someid.com/someBbpage\",\n                \"title\": null,\n                \"anchorText\": \"order\",\n                \"bbReference\": true,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/files/1532677/download\",\n                \"title\": \"Cyber Security Training Complete.pdf\",\n                \"anchorText\": \"some other font\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"http://lowcost.fiu.edu/\",\n                \"title\": null,\n                \"anchorText\": \"lowcost.fiu.edu.\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            }],\n            \"text\":\n            {\n                \"allCaps\": true,\n                \"underlinedWords\": true,\n                \"fontFamily\": true,\n                \"fontSize\": false\n            },\n            \"videos\": true\n        }\n    },\n    {\n        \"id\": 518065,\n        \"title\": \"Sample Quiz\",\n        \"position\": 4,\n        \"indent\": 0,\n        \"type\": \"Quiz\",\n        \"module_id\": 75818,\n        \"html_url\": \"https://fiu.instructure.com/courses/274/modules/items/518065\",\n        \"content_id\": 78785,\n        \"url\": \"https://fiu.instructure.com/api/v1/courses/274/quizzes/78785\",\n        \"published\": true,\n        \"content\":\n        {\n            \"id\": 78785,\n            \"title\": \"Sample Quiz\",\n            \"html_url\": \"https://fiu.instructure.com/courses/274/quizzes/78785\",\n            \"mobile_url\": \"https://fiu.instructure.com/courses/274/quizzes/78785?force_user=1&persist_headless=1\",\n            \"description\": \"<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>\",\n            \"quiz_type\": \"practice_quiz\",\n            \"time_limit\": 60,\n            \"shuffle_answers\": true,\n            \"show_correct_answers\": true,\n            \"scoring_policy\": \"keep_highest\",\n            \"allowed_attempts\": 1,\n            \"one_question_at_a_time\": false,\n            \"question_count\": 2,\n            \"points_possible\": 2,\n            \"cant_go_back\": false,\n            \"access_code\": null,\n            \"ip_filter\": null,\n            \"due_at\": \"2018-05-31T03:59:59Z\",\n            \"lock_at\": \"2018-05-31T03:59:59Z\",\n            \"unlock_at\": null,\n            \"published\": true,\n            \"unpublishable\": false,\n            \"locked_for_user\": true,\n            \"lock_info\":\n            {\n                \"asset_string\": \"quizzes:quiz_78785\",\n                \"missing_permission\": \"participate_as_student\"\n            },\n            \"lock_explanation\": \"This quiz is currently locked.\",\n            \"hide_results\": null,\n            \"show_correct_answers_at\": null,\n            \"hide_correct_answers_at\": null,\n            \"all_dates\": [\n            {\n                \"due_at\": \"2018-05-31T03:59:59Z\",\n                \"unlock_at\": null,\n                \"lock_at\": \"2018-05-31T03:59:59Z\",\n                \"base\": true\n            }],\n            \"can_unpublish\": false,\n            \"can_update\": true,\n            \"require_lockdown_browser\": false,\n            \"require_lockdown_browser_for_results\": false,\n            \"require_lockdown_browser_monitor\": false,\n            \"lockdown_browser_monitor_data\": \"\",\n            \"speed_grader_url\": null,\n            \"permissions\":\n            {\n                \"read_statistics\": true,\n                \"manage\": true,\n                \"read\": true,\n                \"update\": true,\n                \"create\": true,\n                \"submit\": true,\n                \"preview\": true,\n                \"delete\": true,\n                \"grade\": true,\n                \"review_grades\": true,\n                \"view_answer_audits\": false\n            },\n            \"quiz_reports_url\": \"https://fiu.instructure.com/api/v1/courses/274/quizzes/78785/reports\",\n            \"quiz_statistics_url\": \"https://fiu.instructure.com/api/v1/courses/274/quizzes/78785/statistics\",\n            \"message_students_url\": \"https://fiu.instructure.com/api/v1/courses/274/quizzes/78785/submission_users/message\",\n            \"section_count\": 1,\n            \"quiz_submission_versions_html_url\": \"https://fiu.instructure.com/courses/274/quizzes/78785/submission_versions\",\n            \"assignment_id\": null,\n            \"one_time_results\": false,\n            \"only_visible_to_overrides\": false,\n            \"assignment_group_id\": 940,\n            \"show_correct_answers_last_attempt\": false,\n            \"version_number\": 5,\n            \"question_types\": [\"multiple_choice_question\"],\n            \"has_access_code\": false,\n            \"post_to_sis\": null\n        },\n        \"auditResults\":\n        {\n            \"images\": [],\n            \"links\": [],\n            \"text\":\n            {\n                \"allCaps\": false,\n                \"underlinedWords\": false,\n                \"fontFamily\": false,\n                \"fontSize\": false\n            },\n            \"videos\": null\n        }\n    },\n    {\n        \"id\": 518066,\n        \"title\": \"Testing Points\",\n        \"position\": 5,\n        \"indent\": 0,\n        \"type\": \"Assignment\",\n        \"module_id\": 75818,\n        \"html_url\": \"https://fiu.instructure.com/courses/274/modules/items/518066\",\n        \"content_id\": 135613,\n        \"url\": \"https://fiu.instructure.com/api/v1/courses/274/assignments/135613\",\n        \"published\": true,\n        \"content\":\n        {\n            \"id\": 135613,\n            \"description\": \"\",\n            \"due_at\": null,\n            \"unlock_at\": null,\n            \"lock_at\": null,\n            \"points_possible\": 0,\n            \"grading_type\": \"points\",\n            \"assignment_group_id\": 940,\n            \"grading_standard_id\": null,\n            \"created_at\": \"2018-05-02T16:52:30Z\",\n            \"updated_at\": \"2018-05-02T16:52:30Z\",\n            \"peer_reviews\": false,\n            \"automatic_peer_reviews\": false,\n            \"position\": 21,\n            \"grade_group_students_individually\": false,\n            \"anonymous_peer_reviews\": false,\n            \"group_category_id\": null,\n            \"post_to_sis\": false,\n            \"moderated_grading\": false,\n            \"omit_from_final_grade\": false,\n            \"intra_group_peer_reviews\": false,\n            \"anonymous_instructor_annotations\": false,\n            \"anonymous_grading\": false,\n            \"secure_params\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsdGlfYXNzaWdubWVudF9pZCI6IjU2YWQ2ZmM0LWZjZWYtNDEzOS1hZmNiLWNkNjYwNTRlZTkwYSJ9.FDD-gd0DHVlSExjyRQcPop9eAtvy3q7JQrdzX2H0P04\",\n            \"course_id\": 274,\n            \"name\": \"Testing Points\",\n            \"submission_types\": [\"online_upload\"],\n            \"has_submitted_submissions\": false,\n            \"due_date_required\": false,\n            \"max_name_length\": 255,\n            \"in_closed_grading_period\": false,\n            \"is_quiz_assignment\": false,\n            \"can_duplicate\": true,\n            \"original_assignment_id\": null,\n            \"original_assignment_name\": null,\n            \"workflow_state\": \"published\",\n            \"muted\": false,\n            \"html_url\": \"https://fiu.instructure.com/courses/274/assignments/135613\",\n            \"has_overrides\": false,\n            \"needs_grading_count\": 0,\n            \"integration_id\": null,\n            \"integration_data\":\n            {},\n            \"published\": true,\n            \"unpublishable\": true,\n            \"only_visible_to_overrides\": false,\n            \"locked_for_user\": false,\n            \"submissions_download_url\": \"https://fiu.instructure.com/courses/274/assignments/135613/submissions?zip=1\"\n        }\n    },\n    {\n        \"id\": 518067,\n        \"title\": \"Adobe Connect LTI\",\n        \"position\": 6,\n        \"indent\": 0,\n        \"type\": \"ExternalTool\",\n        \"module_id\": 75818,\n        \"html_url\": \"https://fiu.instructure.com/courses/274/modules/items/518067\",\n        \"content_id\": 260,\n        \"url\": \"https://fiu.instructure.com/api/v1/courses/274/external_tools/sessionless_launch?id=260&url=https%3A%2F%2Fapp.edugamecloud.com%2Flti%2Fcanvas-login\",\n        \"external_url\": \"https://app.edugamecloud.com/lti/canvas-login\",\n        \"new_tab\": false,\n        \"published\": false\n    },\n    {\n        \"id\": 518068,\n        \"title\": \"Cyber Security Training Complete.pdf\",\n        \"position\": 7,\n        \"indent\": 0,\n        \"type\": \"File\",\n        \"module_id\": 75818,\n        \"html_url\": \"https://fiu.instructure.com/courses/274/modules/items/518068\",\n        \"content_id\": 1532677,\n        \"url\": \"https://fiu.instructure.com/api/v1/courses/274/files/1532677\",\n        \"published\": true\n    },\n    {\n        \"id\": 523708,\n        \"title\": \"Entrance Quiz Instructions (Canvas Only)\",\n        \"position\": 8,\n        \"indent\": 0,\n        \"type\": \"Quiz\",\n        \"module_id\": 75818,\n        \"html_url\": \"https://fiu.instructure.com/courses/274/modules/items/523708\",\n        \"content_id\": 79958,\n        \"url\": \"https://fiu.instructure.com/api/v1/courses/274/quizzes/79958\",\n        \"published\": true,\n        \"content\":\n        {\n            \"id\": 79958,\n            \"title\": \"Entrance Quiz Instructions (Canvas Only)\",\n            \"html_url\": \"https://fiu.instructure.com/courses/274/quizzes/79958\",\n            \"mobile_url\": \"https://fiu.instructure.com/courses/274/quizzes/79958?force_user=1&persist_headless=1\",\n            \"description\": \"<div style=\\\"display: flex;\\\">\\n<div id=\\\"quiz_description_col1\\\" style=\\\"max-width: 100px; padding: 0px 15px 0px 0px;\\\"><img style=\\\"width: 100px;\\\" title=\\\"Image of Assessment Icon\\\" src=\\\"https://s3.amazonaws.com/vivomedia.fiu.edu/565c6ef653560/Submit.png\\\" alt=\\\"Image of Assessment Icon\\\"></div>\\n<div>\\n<div id=\\\"quiz_description_col2\\\">\\n<p>To assess your understanding of the syllabus and FAQ document, you will be required to complete a 10 question multiple choice quiz and it must be submitted before the posted deadline.</p>\\n<ul>\\n<li>The Entrance Quiz is based solely on the FAQ doc and the syllabus.</li>\\n<li>You can access this quiz anytime during the availability period. Keep in mind you must begin the quiz with enough time to complete the quiz before the quiz expires at 11:55 pm on the last day of the availability period indicated in the syllabus. This means you must have the quiz completed before 11:55 pm. If you log-on at 11:50 pm, you will only have five minutes to complete the quiz.</li>\\n<li>You can use your syllabus and the FAQ document provided; however, you cannot consult with another individual during the quiz or discuss the quiz with another student until after the quiz availability period has expired and the grades have been posted. Conduct that violates the <a title=\\\"Link to FIU's Academic Honor Code\\\" href=\\\"http://integrity.fiu.edu/\\\" target=\\\"_blank\\\">University's Academic Honor Code</a> will result in a failing grade for the entire course.</li>\\n<li>Preparation Materials for Entrance Quiz:\\n<ul>\\n<li>Syllabus</li>\\n<li>FAQ Document</li>\\n</ul>\\n</li>\\n</ul>\\n</div>\\n</div>\\n</div>\",\n            \"quiz_type\": \"assignment\",\n            \"time_limit\": 30,\n            \"shuffle_answers\": false,\n            \"show_correct_answers\": true,\n            \"scoring_policy\": \"keep_highest\",\n            \"allowed_attempts\": 1,\n            \"one_question_at_a_time\": false,\n            \"question_count\": 10,\n            \"points_possible\": 10,\n            \"cant_go_back\": false,\n            \"access_code\": null,\n            \"ip_filter\": null,\n            \"due_at\": null,\n            \"lock_at\": null,\n            \"unlock_at\": null,\n            \"published\": true,\n            \"unpublishable\": true,\n            \"locked_for_user\": true,\n            \"lock_info\":\n            {\n                \"asset_string\": \"quizzes:quiz_79958\",\n                \"missing_permission\": \"participate_as_student\"\n            },\n            \"lock_explanation\": \"This quiz is currently locked.\",\n            \"hide_results\": null,\n            \"show_correct_answers_at\": null,\n            \"hide_correct_answers_at\": null,\n            \"all_dates\": [\n            {\n                \"due_at\": null,\n                \"unlock_at\": null,\n                \"lock_at\": null,\n                \"base\": true\n            }],\n            \"can_unpublish\": true,\n            \"can_update\": true,\n            \"require_lockdown_browser\": false,\n            \"require_lockdown_browser_for_results\": false,\n            \"require_lockdown_browser_monitor\": false,\n            \"lockdown_browser_monitor_data\": \"\",\n            \"speed_grader_url\": \"https://fiu.instructure.com/courses/274/gradebook/speed_grader?assignment_id=137696\",\n            \"permissions\":\n            {\n                \"read_statistics\": true,\n                \"manage\": true,\n                \"read\": true,\n                \"update\": true,\n                \"create\": true,\n                \"submit\": true,\n                \"preview\": true,\n                \"delete\": true,\n                \"grade\": true,\n                \"review_grades\": true,\n                \"view_answer_audits\": false\n            },\n            \"quiz_reports_url\": \"https://fiu.instructure.com/api/v1/courses/274/quizzes/79958/reports\",\n            \"quiz_statistics_url\": \"https://fiu.instructure.com/api/v1/courses/274/quizzes/79958/statistics\",\n            \"message_students_url\": \"https://fiu.instructure.com/api/v1/courses/274/quizzes/79958/submission_users/message\",\n            \"section_count\": 1,\n            \"quiz_submission_versions_html_url\": \"https://fiu.instructure.com/courses/274/quizzes/79958/submission_versions\",\n            \"assignment_id\": 137696,\n            \"one_time_results\": false,\n            \"only_visible_to_overrides\": false,\n            \"assignment_group_id\": 54962,\n            \"show_correct_answers_last_attempt\": false,\n            \"version_number\": 8,\n            \"question_types\": [],\n            \"has_access_code\": false,\n            \"post_to_sis\": false\n        },\n        \"auditResults\":\n        {\n            \"images\": [\n            {\n                \"alt\": \"Image of Assessment Icon\",\n                \"src\": \"https://s3.amazonaws.com/vivomedia.fiu.edu/565c6ef653560/Submit.png\"\n            }],\n            \"links\": [\n            {\n                \"href\": \"http://integrity.fiu.edu/\",\n                \"title\": \"Link to FIU's Academic Honor Code\",\n                \"anchorText\": \"University's Academic Honor Code\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            }],\n            \"text\":\n            {\n                \"allCaps\": true,\n                \"underlinedWords\": false,\n                \"fontFamily\": false,\n                \"fontSize\": false\n            },\n            \"videos\": null\n        }\n    }]\n},\n{\n    \"id\": 75819,\n    \"name\": \"Student Resources\",\n    \"position\": 2,\n    \"unlock_at\": null,\n    \"require_sequential_progress\": false,\n    \"publish_final_grade\": false,\n    \"prerequisite_module_ids\": [],\n    \"published\": true,\n    \"items_count\": 4,\n    \"items_url\": \"https://fiu.instructure.com/api/v1/courses/274/modules/75819/items\",\n    \"moduleItems\": [\n    {\n        \"id\": 518069,\n        \"title\": \"Adobe Connect-2\",\n        \"position\": 1,\n        \"indent\": 0,\n        \"type\": \"Page\",\n        \"module_id\": 75819,\n        \"html_url\": \"https://fiu.instructure.com/courses/274/modules/items/518069\",\n        \"page_url\": \"adobe-connect-2\",\n        \"url\": \"https://fiu.instructure.com/api/v1/courses/274/pages/adobe-connect-2\",\n        \"published\": true,\n        \"content\":\n        {\n            \"title\": \"Adobe Connect-2\",\n            \"created_at\": \"2018-05-02T16:52:28Z\",\n            \"url\": \"adobe-connect-2\",\n            \"editing_roles\": \"teachers\",\n            \"page_id\": 400672,\n            \"published\": true,\n            \"hide_from_students\": false,\n            \"front_page\": false,\n            \"html_url\": \"https://fiu.instructure.com/courses/274/pages/adobe-connect-2\",\n            \"updated_at\": \"2018-05-02T16:52:28Z\",\n            \"locked_for_user\": false,\n            \"body\": \"<p> </p>\\r\\n<p><span style=\\\"font-size: 10pt;\\\"><video width=\\\"300\\\" height=\\\"150\\\" controls=\\\"controls\\\">\\r\\n<source src=\\\"/courses/274/file_contents/course%20files/something.mp4\\\" type=\\\"video/mp4\\\"></source></video></span></p>\\r\\n<p><span style=\\\"font-size: 10pt;\\\">Adobe Connect is an online meeting room where you can interact with your professor and fellow students by sharing screens or files, chat, broadcast live audio, and take part in other interactive online activities.</span><br><br><span style=\\\"font-size: 10pt;\\\">Adobe Connect Meetings will be available on the following dates/times:</span><br><br><span style=\\\"font-size: 10pt;\\\"><strong>Meeting 1: Date/Time - Date/Time</strong></span><br><span style=\\\"font-size: 10pt;\\\"><strong>Meeting 2: Date/Time - Date/Time</strong></span><br><span style=\\\"font-size: 10pt;\\\"><strong>Meeting 3: Date/Time - Date/Time</strong></span><br><br><span style=\\\"font-size: 10pt;\\\"><strong>Requirements for using Adobe Connect:</strong></span></p>\\r\\n<ol>\\r\\n<li><span style=\\\"font-size: 10pt;\\\">Disable any window pop-up blocker.</span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\">The latest version of <a title=\\\"Adobe Flash Player\\\" href=\\\"http://get.adobe.com/flashplayer/\\\" target=\\\"_blank\\\">Adobe Flash Player</a> is required to successfully run your Adobe Connect meeting. You can <a title=\\\"Test your computer\\\" href=\\\"http://online.fiu.edu/html/blackboardlearn/mastertemplate/adobe_connect/meetingtest\\\" target=\\\"_blank\\\">test your computer</a> to make sure your computer and network connections are properly configured to provide you with the best possible Adobe Connect meeting experience.</span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\">Use of a combination <a title=\\\"Headset and Microphone\\\" href=\\\"http://online.fiu.edu/html/canvas/mastertemplate/adobe_connect/\\\" target=\\\"_blank\\\">headset and microphone</a> with USB connection is recommended to ensure quality sound and reduce technical difficulties.</span></li>\\r\\n</ol>\\r\\n<p><span style=\\\"font-size: 10pt;\\\"><strong>Reference <a title=\\\"Adobe Connect Tutorials\\\" href=\\\"http://online.fiu.edu/html/canvas/mastertemplate/adobe_connect/\\\" target=\\\"_blank\\\">Adobe Connect (Tutorials &amp; Help)</a> to learn about the tool, how to access your meeting rooms and recordings.</strong></span></p>\\r\\n<p><strong><span style=\\\"font-size: 10pt;\\\">Once you have properly tested your equipment, you may proceed to access your Adobe Connect tool link on the left navigation pane.</span><br></strong></p>\"\n        },\n        \"auditResults\":\n        {\n            \"images\": [],\n            \"links\": [\n            {\n                \"href\": \"http://get.adobe.com/flashplayer/\",\n                \"title\": \"Adobe Flash Player\",\n                \"anchorText\": \"Adobe Flash Player\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"http://online.fiu.edu/html/blackboardlearn/mastertemplate/adobe_connect/meetingtest\",\n                \"title\": \"Test your computer\",\n                \"anchorText\": \"test your computer\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"http://online.fiu.edu/html/canvas/mastertemplate/adobe_connect/\",\n                \"title\": \"Headset and Microphone\",\n                \"anchorText\": \"headset and microphone\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"http://online.fiu.edu/html/canvas/mastertemplate/adobe_connect/\",\n                \"title\": \"Adobe Connect Tutorials\",\n                \"anchorText\": \"Adobe Connect (Tutorials & Help)\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            }],\n            \"text\":\n            {\n                \"allCaps\": false,\n                \"underlinedWords\": false,\n                \"fontFamily\": false,\n                \"fontSize\": true\n            },\n            \"videos\": true\n        }\n    },\n    {\n        \"id\": 518070,\n        \"title\": \"FIU Resources            \",\n        \"position\": 2,\n        \"indent\": 0,\n        \"type\": \"ExternalUrl\",\n        \"module_id\": 75819,\n        \"html_url\": \"https://fiu.instructure.com/api/v1/courses/274/module_item_redirect/518070\",\n        \"external_url\": \"http://online.fiu.edu/html/blackboardlearn/resources/\",\n        \"new_tab\": true,\n        \"published\": true\n    },\n    {\n        \"id\": 518071,\n        \"title\": \"Technical Support\",\n        \"position\": 3,\n        \"indent\": 0,\n        \"type\": \"ExternalUrl\",\n        \"module_id\": 75819,\n        \"html_url\": \"https://fiu.instructure.com/api/v1/courses/274/module_item_redirect/518071\",\n        \"external_url\": \"http://lmshelp.fiu.edu\",\n        \"new_tab\": true,\n        \"published\": true\n    },\n    {\n        \"id\": 518072,\n        \"title\": \"Policies\",\n        \"position\": 4,\n        \"indent\": 0,\n        \"type\": \"ExternalUrl\",\n        \"module_id\": 75819,\n        \"html_url\": \"https://fiu.instructure.com/api/v1/courses/274/module_item_redirect/518072\",\n        \"external_url\": \"http://online.fiu.edu/html/blackboardlearn/policies/\",\n        \"new_tab\": true,\n        \"published\": true\n    }]\n},\n{\n    \"id\": 75820,\n    \"name\": \"Module 0 | Getting Started\",\n    \"position\": 3,\n    \"unlock_at\": null,\n    \"require_sequential_progress\": false,\n    \"publish_final_grade\": false,\n    \"prerequisite_module_ids\": [],\n    \"published\": true,\n    \"items_count\": 1,\n    \"items_url\": \"https://fiu.instructure.com/api/v1/courses/274/modules/75820/items\",\n    \"moduleItems\": [\n    {\n        \"id\": 518073,\n        \"title\": \"Getting Started-2\",\n        \"position\": 1,\n        \"indent\": 0,\n        \"type\": \"Page\",\n        \"module_id\": 75820,\n        \"html_url\": \"https://fiu.instructure.com/courses/274/modules/items/518073\",\n        \"page_url\": \"getting-started-2\",\n        \"url\": \"https://fiu.instructure.com/api/v1/courses/274/pages/getting-started-2\",\n        \"published\": true,\n        \"content\":\n        {\n            \"title\": \"Getting Started-2\",\n            \"created_at\": \"2018-05-02T16:52:29Z\",\n            \"url\": \"getting-started-2\",\n            \"editing_roles\": \"teachers\",\n            \"page_id\": 400679,\n            \"published\": true,\n            \"hide_from_students\": false,\n            \"front_page\": false,\n            \"html_url\": \"https://fiu.instructure.com/courses/274/pages/getting-started-2\",\n            \"updated_at\": \"2018-05-02T16:52:29Z\",\n            \"locked_for_user\": false,\n            \"body\": \"<p><span style=\\\"font-size: 10pt;\\\">The following short tutorials will serve as guides to assist you navigating through Canvas, accessing your content, submitting your assignments and interacting with your peers.<span> </span>rwong<span> </span>verdsarg.</span></p>\\r\\n<h2><span style=\\\"text-decoration: underline; font-size: 14pt;\\\">Welcome to Canvas</span></h2>\\r\\n<ul>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"Canvas Overview\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/canvas-overview\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/canvas-overview\\\" data-api-returntype=\\\"Page\\\">Canvas Overview</a></span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"Global Navigation Tips\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/global-navigation-tips\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/global-navigation-tips\\\" data-api-returntype=\\\"Page\\\">Global Navigation Tips</a></span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"Navigate Canvas with Mobile Devices\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/navigate-canvas-with-mobile-devices\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/navigate-canvas-with-mobile-devices\\\" data-api-returntype=\\\"Page\\\">Navigate Canvas with your Mobile Devices</a></span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"Recommended Browsers\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/recommended-browsers\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/recommended-browsers\\\" data-api-returntype=\\\"Page\\\">Recommended Browsers</a></span></li>\\r\\n</ul>\\r\\n<h2><span style=\\\"font-size: 14pt;\\\">Organization and Communication<br></span></h2>\\r\\n<ul>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"Update your Notification Preferences\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/update-your-notification-preferences\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/update-your-notification-preferences\\\" data-api-returntype=\\\"Page\\\">Update your Notification Preferences</a></span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"How to Use the Calendar\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/how-to-use-the-calendar\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/how-to-use-the-calendar\\\" data-api-returntype=\\\"Page\\\">How to Use the Calendar</a></span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"How to Communicate with your Instructor and Peers\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/how-to-communicate-with-your-instructor-and-peers\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/how-to-communicate-with-your-instructor-and-peers\\\" data-api-returntype=\\\"Page\\\">How to Communicate with your Instructor and Peers</a></span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"How To Be a Successful Online Student\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/how-to-be-a-successful-online-student\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/how-to-be-a-successful-online-student\\\" data-api-returntype=\\\"Page\\\">How to be a Successful Online Student</a></span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"Working in Teams\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/working-in-teams\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/working-in-teams\\\" data-api-returntype=\\\"Page\\\">How to Survive Virtual Group Work</a></span></li>\\r\\n</ul>\\r\\n<h2><span style=\\\"font-size: 14pt;\\\">Assignments, Discussions and Assessments</span></h2>\\r\\n<ul>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"How to Keep Track of Assignments Due\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/how-to-keep-track-of-assignments-due\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/how-to-keep-track-of-assignments-due\\\" data-api-returntype=\\\"Page\\\">How to Keep Track of Assignments Due</a></span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"How to Submit an Assignment\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/how-to-submit-an-assignment\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/how-to-submit-an-assignment\\\" data-api-returntype=\\\"Page\\\">How to Submit an Assignment</a></span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"How to Take a Quiz or Exam\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/how-to-take-a-quiz-or-exam\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/how-to-take-a-quiz-or-exam\\\" data-api-returntype=\\\"Page\\\">How to Take a Quiz or Exam</a></span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"How to Submit a Discussion\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/how-to-submit-a-discussion\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/how-to-submit-a-discussion\\\" data-api-returntype=\\\"Page\\\">How to Submit a Discussion</a></span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"How to Participate in a Group\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/how-to-participate-in-a-group\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/how-to-participate-in-a-group\\\" data-api-returntype=\\\"Page\\\">How to Participate in a Group</a></span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"How to Check Your Grades\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/how-to-check-your-grades\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/how-to-check-your-grades\\\" data-api-returntype=\\\"Page\\\">How to Check Your Grades</a></span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"Important Information About Quizzes\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/important-information-about-quizzes\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/important-information-about-quizzes\\\" data-api-returntype=\\\"Page\\\">Important Information about Quizzes in this course</a></span></li>\\r\\n<li><span style=\\\"font-size: 10pt;\\\"><a title=\\\"Important Information About Assignments\\\" href=\\\"https://fiu.instructure.com/courses/274/pages/important-information-about-assignments\\\" target=\\\"_blank\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/pages/important-information-about-assignments\\\" data-api-returntype=\\\"Page\\\">Important Information about Assignments in this course</a></span></li>\\r\\n</ul>\\r\\n<h2><span style=\\\"font-size: 14pt;\\\">Resources<br></span></h2>\\r\\n<ul>\\r\\n<li><span style=\\\"font-size: 10pt;\\\">Visit the<span> </span><a title=\\\"Student Resources\\\" href=\\\"https://fiu.instructure.com/courses/274/modules/75819\\\" data-api-endpoint=\\\"https://fiu.instructure.com/api/v1/courses/274/modules/75819\\\" data-api-returntype=\\\"Module\\\">Student Resources Module</a><span> </span>for assistance with course tools and FIU policies.</span></li>\\r\\n</ul>\\r\\n<h2><span style=\\\"font-size: 14pt;\\\">Support</span></h2>\\r\\n<ul>\\r\\n<li>\\n<span style=\\\"font-size: 10pt;\\\">If you encounter any technical difficulties, please contact <a title=\\\"LMS Support Services\\\" href=\\\"http://lmshelp.fiu.edu/\\\" target=\\\"_blank\\\">LMS Help Support Services</a>. Please ensure you contact support within 15 days of the issue occurring.</span><br><br>\\n</li>\\r\\n</ul>\\r\\n<p><span style=\\\"font-size: 10pt;\\\">You are now ready to access your course content, assignments and quizzes. Click the \\\"Next\\\" button in the lower right corner of your screen to continue.</span></p>\"\n        },\n        \"auditResults\":\n        {\n            \"images\": [],\n            \"links\": [\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/canvas-overview\",\n                \"title\": \"Canvas Overview\",\n                \"anchorText\": \"Canvas Overview\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/global-navigation-tips\",\n                \"title\": \"Global Navigation Tips\",\n                \"anchorText\": \"Global Navigation Tips\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/navigate-canvas-with-mobile-devices\",\n                \"title\": \"Navigate Canvas with Mobile Devices\",\n                \"anchorText\": \"Navigate Canvas with your Mobile Devices\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/recommended-browsers\",\n                \"title\": \"Recommended Browsers\",\n                \"anchorText\": \"Recommended Browsers\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/update-your-notification-preferences\",\n                \"title\": \"Update your Notification Preferences\",\n                \"anchorText\": \"Update your Notification Preferences\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/how-to-use-the-calendar\",\n                \"title\": \"How to Use the Calendar\",\n                \"anchorText\": \"How to Use the Calendar\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/how-to-communicate-with-your-instructor-and-peers\",\n                \"title\": \"How to Communicate with your Instructor and Peers\",\n                \"anchorText\": \"How to Communicate with your Instructor and Peers\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/how-to-be-a-successful-online-student\",\n                \"title\": \"How To Be a Successful Online Student\",\n                \"anchorText\": \"How to be a Successful Online Student\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/working-in-teams\",\n                \"title\": \"Working in Teams\",\n                \"anchorText\": \"How to Survive Virtual Group Work\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/how-to-keep-track-of-assignments-due\",\n                \"title\": \"How to Keep Track of Assignments Due\",\n                \"anchorText\": \"How to Keep Track of Assignments Due\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/how-to-submit-an-assignment\",\n                \"title\": \"How to Submit an Assignment\",\n                \"anchorText\": \"How to Submit an Assignment\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/how-to-take-a-quiz-or-exam\",\n                \"title\": \"How to Take a Quiz or Exam\",\n                \"anchorText\": \"How to Take a Quiz or Exam\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/how-to-submit-a-discussion\",\n                \"title\": \"How to Submit a Discussion\",\n                \"anchorText\": \"How to Submit a Discussion\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/how-to-participate-in-a-group\",\n                \"title\": \"How to Participate in a Group\",\n                \"anchorText\": \"How to Participate in a Group\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/how-to-check-your-grades\",\n                \"title\": \"How to Check Your Grades\",\n                \"anchorText\": \"How to Check Your Grades\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/important-information-about-quizzes\",\n                \"title\": \"Important Information About Quizzes\",\n                \"anchorText\": \"Important Information about Quizzes in this course\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/pages/important-information-about-assignments\",\n                \"title\": \"Important Information About Assignments\",\n                \"anchorText\": \"Important Information about Assignments in this course\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"https://fiu.instructure.com/courses/274/modules/75819\",\n                \"title\": \"Student Resources\",\n                \"anchorText\": \"Student Resources Module\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            },\n            {\n                \"href\": \"http://lmshelp.fiu.edu/\",\n                \"title\": \"LMS Support Services\",\n                \"anchorText\": \"LMS Help Support Services\",\n                \"bbReference\": null,\n                \"pearsonReference\": null,\n                \"contextualAnchorText\": true\n            }],\n            \"text\":\n            {\n                \"allCaps\": false,\n                \"underlinedWords\": true,\n                \"fontFamily\": false,\n                \"fontSize\": true\n            },\n            \"videos\": null\n        }\n    }]\n}]",
+			"settings":
+			{
+				"buffer_size": 50916,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/api/audit/image/AuditImages.js",
+			"settings":
+			{
+				"buffer_size": 622,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/api/audit/link/AuditLinks.js",
+			"settings":
+			{
+				"buffer_size": 2208,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/api/audit/text/AuditText.js",
+			"settings":
+			{
+				"buffer_size": 2317,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/api/audit/video/AuditVideo.js",
+			"settings":
+			{
+				"buffer_size": 600,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -471,44 +522,24 @@
 		"selected_items":
 		[
 			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
 				"js",
 				"Set Syntax: JavaScript"
-			],
-			[
-				"html",
-				"Set Syntax: HTML"
-			],
-			[
-				"in",
-				"Auto indent"
-			],
-			[
-				"hand",
-				"Set Syntax: Handlebars"
 			],
 			[
 				"j",
 				"Set Syntax: JavaScript"
 			],
 			[
-				"auto",
-				"Auto indent"
-			],
-			[
-				"json",
-				"Set Syntax: JSON"
+				"Package Control: ",
+				"Package Control: List Packages"
 			],
 			[
 				"inde",
 				"Auto indent"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: ",
-				"Package Control: List Packages"
 			],
 			[
 				"pret",
@@ -519,7 +550,15 @@
 				"HTMLPrettify"
 			],
 			[
+				"in",
+				"Auto indent"
+			],
+			[
 				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
 				"Package Control: Install Package"
 			],
 			[
@@ -536,6 +575,10 @@
 			],
 			[
 				"hmtl",
+				"Set Syntax: HTML"
+			],
+			[
+				"html",
 				"Set Syntax: HTML"
 			],
 			[
@@ -595,6 +638,10 @@
 				"Package Control: Install Package"
 			],
 			[
+				"auto",
+				"Auto indent"
+			],
+			[
 				"remove",
 				"Package Control: Remove Package"
 			],
@@ -652,33 +699,17 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/dist",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src"
+		"/C/Users/Trinode/OneDrive - Florida International University/Projects/Canvas Audit/Userscript",
+		"/C/Users/Trinode/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/dist"
 	],
 	"file_history":
 	[
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/HandlebarsHelpers.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/tidusx18.github.io/generate-report.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/tidusx18.github.io/audit-results.html",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/handlebars-template.handlebars",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/link/AuditLinks.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/text/AuditText.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Quick Scripts/Canvas Delete All Question Banks.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/handlebars-helpers.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/sample-course-json.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/webpack.config.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/video/AuditVideo.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/image/AuditImages.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/handlebars-helpers.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/handlebars-tempalte.handlebars",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/BuildResults.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Temp/Userscripts/IconTemplates.user.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/package.json",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/dist/9b4dfd439fe0f3d6c243d065d287c011.docx",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/package.json",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/notes.txt",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/auditImages.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/json-structure.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/webpack.config.js",
 		"/C/Users/victorid/Downloads/fiu.instructure.com-1527271889971.log",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Quick Scripts/BulkDeleteCanvasCourse.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/dist/CanvasAuditBuild.user.js",
@@ -785,7 +816,22 @@
 		"/C/Users/victorid/Downloads/Self-Introduction Post Rubric.js",
 		"/C/Users/victorid/Documents/Temp/results2.json",
 		"/C/Users/victorid/AppData/Roaming/Sublime Text 3/Packages/User/sbc-setting.sublime-settings",
-		"/C/Users/victorid/AppData/Roaming/Sublime Text 3/Packages/Better Completion/sbc-setting.sublime-settings"
+		"/C/Users/victorid/AppData/Roaming/Sublime Text 3/Packages/Better Completion/sbc-setting.sublime-settings",
+		"/C/Users/victorid/AppData/Roaming/Sublime Text 3/Installed Packages/Better Completion.sublime-package",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/UpdateString.js",
+		"/C/Users/victorid/Documents/Projects/bb-quiz-pool-parser/views/layout.jade",
+		"/C/Users/victorid/Documents/Projects/bb-quiz-pool-parser/public/stylesheets/style.css",
+		"/C/Users/victorid/Documents/Projects/bb-quiz-pool-parser/views/index.jade",
+		"/C/Users/victorid/Documents/Projects/bb-quiz-pool-parser/package.json",
+		"/C/Users/victorid/AppData/Roaming/Sublime Text 3/Packages/JavaScript Completions/JavaScript-Completions.sublime-settings",
+		"/C/Users/victorid/Downloads/fiu.instructure.com.har",
+		"/Z/Private/victorid/Documents/Full Time Faculty.txt",
+		"/C/Users/victorid/Google Drive/Programming Projects/AutoHotKey/DownloadsFolderShortcut.ahk",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/GeneralWorkSpace.sublime-project",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/CourseCopyFromSandbox.js",
+		"/C/Users/victorid/Documents/Projects/local-Library-tutorial/package.json",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/POST-IRMA-ReplaceDatesBB.js",
+		"/C/Users/victorid/Downloads/1178 - SPC3425 - Small Group Communication - Section RVC - Fall 2017 - Edit Group Set Enrollments.png"
 	],
 	"find":
 	{
@@ -809,32 +855,6 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"link",
-			"title",
-			"isReachable",
-			"pearsonRef",
-			"resolve(() => {\n                    return false;\n                });",
-			"initHandlebarsHelpers",
-			"initHJandlebarsHelpers",
-			"generateReport",
-			"var",
-			"<br>",
-			"            <",
-			"title",
-			"createIssue",
-			"'<span",
-			"hasPearsonReference",
-			"title",
-			"anchorText",
-			"title",
-			"prop",
-			"links",
-			"peop",
-			"title",
-			">\n",
-			"p",
-			"name:",
-			"name",
 			"504b 0304 1400",
 			"504b 0304 1400 0600 0800 0000 2100 0c4f",
 			"var",
@@ -936,7 +956,33 @@
 			"auditLinks",
 			"\\",
 			"./node_modules/puppeteer",
-			");\n"
+			");\n",
+			".tab().tab()",
+			".bold()",
+			"video",
+			"util",
+			"let",
+			"connectBrowser",
+			"browserEndpoint",
+			"endpoint",
+			"const",
+			"browser",
+			"browserUrl",
+			"getLocation",
+			"wsEndpoint",
+			"webSocketDebuggerUrl",
+			"/json/version",
+			"wsEndPoint",
+			"() ",
+			".tab() )",
+			"text",
+			"let text",
+			"let paragraph",
+			"image",
+			"Src",
+			"src",
+			"Src",
+			"src"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -971,15 +1017,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12965,
+						"buffer_size": 13441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1121,
-								1121
+								0,
+								0
 							]
 						],
 						"settings":
@@ -994,7 +1040,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1010,8 +1056,8 @@
 						"selection":
 						[
 							[
-								2040,
-								2040
+								529,
+								529
 							]
 						],
 						"settings":
@@ -1020,10 +1066,69 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true,
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
-							"word_wrap": false
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 900.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1036,31 +1141,149 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
-					"file": "notes.txt",
+					"buffer": 4,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 203,
+						"buffer_size": 50916,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								203,
-								203
+								485,
+								485
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/api/audit/image/AuditImages.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								622,
+								622
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/api/audit/link/AuditLinks.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/api/audit/text/AuditText.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/api/audit/video/AuditVideo.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								600,
+								600
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1068,7 +1291,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -1094,7 +1317,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.597739767868,
 			1.0
 		],
 		"rows":
@@ -1120,7 +1343,7 @@
 	"project": "Canvas-Audit-Userscript.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1174,7 +1397,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -1182,7 +1405,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 283.0,
+	"side_bar_width": 295.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
