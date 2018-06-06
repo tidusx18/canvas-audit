@@ -1,0 +1,40 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #383838;
+}
+
+p {}
+
+h1 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+h2, h3, h4 {
+  font-weight: 700;
+}
+
+.module-items,
+.audit-results {
+  margin: 0 0 0 40px;
+}
+
+.module-items {
+  margin: 0 0 40px 0;
+}
+
+.notice {
+  color: green;
+  font-weight: 600;
+}
+
+.issue {
+  font-weight: 600;
+  color: #ff0000;
+}
+
+.property-name {
+  font-weight: 600;
+}

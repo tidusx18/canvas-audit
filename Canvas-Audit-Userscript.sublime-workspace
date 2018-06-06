@@ -1,0 +1,1190 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"audi",
+				"auditLinks\tany"
+			],
+			[
+				"asyn",
+				"async_function"
+			],
+			[
+				"moduleI",
+				"moduleItem\tempty"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"queryS",
+				"querySelector\tjsDOM"
+			],
+			[
+				"pus",
+				"publishedStatus"
+			],
+			[
+				"pat",
+				"path"
+			],
+			[
+				"course",
+				"courses"
+			],
+			[
+				"ele",
+				"electron-builder"
+			],
+			[
+				"Ca",
+				"CanvasAudit"
+			],
+			[
+				"cou",
+				"courseName"
+			],
+			[
+				"resul",
+				"results"
+			],
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"doc",
+				"docxtemplater"
+			],
+			[
+				"Re",
+				"ReconnectPuppeteer"
+			],
+			[
+				"bro",
+				"browser"
+			],
+			[
+				"anc",
+				"anchorText"
+			],
+			[
+				"head",
+				"heading2"
+			],
+			[
+				"modu",
+				"moduleItems"
+			],
+			[
+				"moit",
+				"moduleItems"
+			],
+			[
+				"linka",
+				"linkAudit"
+			],
+			[
+				"au",
+				"auditVideo"
+			],
+			[
+				"resu",
+				"results"
+			],
+			[
+				"do",
+				"docx"
+			],
+			[
+				"imag",
+				"imageTitle"
+			],
+			[
+				"getframe",
+				"getFrames"
+			],
+			[
+				"aud",
+				"auditCourse"
+			],
+			[
+				"getmoi",
+				"getModuleItems"
+			],
+			[
+				"mo",
+				"moduleItems"
+			],
+			[
+				"pu",
+				"publishedState"
+			],
+			[
+				"getmod",
+				"getModuleName"
+			],
+			[
+				"getmoite",
+				"getModuleItemUrl"
+			],
+			[
+				"getmoduleti",
+				"getModuleItemName"
+			],
+			[
+				"inn",
+				"innerText"
+			],
+			[
+				"goto",
+				"gotoUrl"
+			],
+			[
+				"conten",
+				"contentType"
+			],
+			[
+				"eval",
+				"evaluate"
+			],
+			[
+				"men",
+				"menu"
+			],
+			[
+				"Mod",
+				"Modules"
+			],
+			[
+				"menu",
+				"menuName"
+			],
+			[
+				"gett",
+				"gettingStarted"
+			],
+			[
+				"wait",
+				"waitForNavigation"
+			],
+			[
+				"wa",
+				"waitFor"
+			],
+			[
+				"cl",
+				"cl\tconsole.log"
+			],
+			[
+				"wai",
+				"waitUntil"
+			],
+			[
+				"impor",
+				"importContent"
+			],
+			[
+				"wiki",
+				"wikiPageCheckboxes"
+			],
+			[
+				"impo",
+				"importContent"
+			],
+			[
+				"fun",
+				"function\tjsProp"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"as",
+				"async"
+			],
+			[
+				"clo",
+				"close\tjsWindow"
+			],
+			[
+				"pare",
+				"parentClasses"
+			],
+			[
+				"cours",
+				"courseName"
+			],
+			[
+				"get",
+				"getProperty"
+			],
+			[
+				"ev",
+				"evaluate"
+			],
+			[
+				"getF",
+				"getFrame"
+			],
+			[
+				"click",
+				"clickAddButton"
+			],
+			[
+				"ty",
+				"typeName"
+			],
+			[
+				"query",
+				"querySelector\tjsDOM"
+			],
+			[
+				"sele",
+				"selector"
+			],
+			[
+				"ad",
+				"adobeConnect"
+			],
+			[
+				"form",
+				"formattedQuestions"
+			],
+			[
+				"crea",
+				"createElement\tjsDOM"
+			],
+			[
+				"ques",
+				"question"
+			],
+			[
+				"en",
+				"endPoint"
+			],
+			[
+				"ass",
+				"associationId"
+			],
+			[
+				"answer",
+				"answerGroup"
+			],
+			[
+				"que",
+				"querySelector\tjsDOM"
+			],
+			[
+				"prom",
+				"prompts"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"getRe",
+				"getResource"
+			],
+			[
+				"cour",
+				"courseID"
+			],
+			[
+				"conte",
+				"contentId"
+			],
+			[
+				"fold",
+				"folderItems"
+			],
+			[
+				"child",
+				"children"
+			],
+			[
+				"con",
+				"contentID"
+			],
+			[
+				"cont",
+				"contentFolders"
+			],
+			[
+				"courses",
+				"coursesPath"
+			],
+			[
+				"pars",
+				"parseJSON"
+			],
+			[
+				"fetch",
+				"fetchedResource"
+			],
+			[
+				"er",
+				"err"
+			],
+			[
+				"content",
+				"contentID"
+			],
+			[
+				"quer",
+				"queryParams"
+			],
+			[
+				"base",
+				"baseURL"
+			],
+			[
+				"temp",
+				"tempRow"
+			],
+			[
+				"spl",
+				"split\tjsString"
+			],
+			[
+				"getid",
+				"getElementById\tjsDOM"
+			],
+			[
+				"rub",
+				"rubric"
+			],
+			[
+				"rubr",
+				"rubricRow"
+			],
+			[
+				"rurbr",
+				"rubricRow"
+			],
+			[
+				"mod",
+				"moduleItems"
+			],
+			[
+				"i",
+				"itemName"
+			],
+			[
+				"item",
+				"itemId"
+			],
+			[
+				"q",
+				"queryString"
+			],
+			[
+				"fo",
+				"forwardButton"
+			],
+			[
+				"ed",
+				"editLink"
+			],
+			[
+				"edi",
+				"editLinkURL"
+			],
+			[
+				"sub",
+				"submitButton"
+			],
+			[
+				"add",
+				"addPreReq"
+			],
+			[
+				"new",
+				"newString"
+			],
+			[
+				"weekl",
+				"weeklyDates"
+			],
+			[
+				"quiz",
+				"quizPool"
+			],
+			[
+				"qu",
+				"questionNumber"
+			],
+			[
+				"in",
+				"innerText"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dist/CanvasAuditBuild.user.js",
+			"settings":
+			{
+				"buffer_size": 12965,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 4441,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "notes.txt",
+			"settings":
+			{
+				"buffer_size": 203,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"in",
+				"Auto indent"
+			],
+			[
+				"hand",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"auto",
+				"Auto indent"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"inde",
+				"Auto indent"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"typ",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"hmtl",
+				"Set Syntax: HTML"
+			],
+			[
+				"pl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"indent",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"sor",
+				"Sort Lines"
+			],
+			[
+				"jso\t",
+				"Indent JSON"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"lint",
+				"JSLint"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"xml",
+				"Indent XML"
+			],
+			[
+				"incre",
+				"Increment Selection"
+			],
+			[
+				"keybin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"line",
+				"Sort Lines"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"block",
+				"Toggle Block Comment"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/dist",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src"
+	],
+	"file_history":
+	[
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/HandlebarsHelpers.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/tidusx18.github.io/generate-report.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/tidusx18.github.io/audit-results.html",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/handlebars-template.handlebars",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/link/AuditLinks.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/text/AuditText.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Quick Scripts/Canvas Delete All Question Banks.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/handlebars-helpers.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/sample-course-json.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/webpack.config.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/video/AuditVideo.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/image/AuditImages.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/handlebars-helpers.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/handlebars-tempalte.handlebars",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/BuildResults.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Temp/Userscripts/IconTemplates.user.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/package.json",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/dist/9b4dfd439fe0f3d6c243d065d287c011.docx",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/notes.txt",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/auditImages.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/json-structure.js",
+		"/C/Users/victorid/Downloads/fiu.instructure.com-1527271889971.log",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Quick Scripts/BulkDeleteCanvasCourse.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/dist/CanvasAuditBuild.user.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/BulkDeleteCanvasCourse.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/CanvasAuditUserscript.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/CanvasAuditUserscript.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Electron/electron-quick-start-master/main.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Electron/electron-quick-start-master/renderer.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/api/audit/link/AuditLinks.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/.travis.yml",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/api/report/generateReport.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/dist/electron-builder-effective-config.yaml",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/dist/Electron-Puppeteer-Canvas-Audit Setup 1.0.0.exe.blockmap",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/electron-puppeteer-quick-start-master/package.json",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/sandbox.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Audit Results JSON Format.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/AuditVideo.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/CanvasAudit.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/AuditLinks.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/AuditText.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/AuditImages.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/printResults.js",
+		"/C/Users/Trinode/OneDrive - Florida International University/Projects/Canvas Audit/Test/test.js",
+		"/C/Users/Trinode/Google Drive/Programming Projects/Javascript/quiz-parser/src/index.js",
+		"/C/Users/Trinode/OneDrive - Florida International University/Projects/Canvas Audit/AuditText.js",
+		"/C/Users/Trinode/OneDrive - Florida International University/Projects/JSK/JSK Notes.txt",
+		"/C/Users/Trinode/OneDrive - Florida International University/Projects/JSK/composer-view.js",
+		"/C/Users/Trinode/OneDrive - Florida International University/Projects/Canvas Audit/CanvasAudit.js",
+		"/C/Users/Trinode/OneDrive - Florida International University/Projects/Canvas Audit/AuditImages.js",
+		"/C/Users/Trinode/OneDrive - Florida International University/Projects/Canvas Audit/AuditLinks.js",
+		"/C/Users/Trinode/OneDrive - Florida International University/Projects/Canvas Audit/test.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/sandboxJSON.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Notes/Audit Items.txt",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Notes/Video Sources.txt",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/MakeWordDoc.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/test.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Sample.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/package.json",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/package-lock.json",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/compile.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Video Sources.txt",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Audit Items.txt",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/AuditVideo.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/CanvasAudit.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/Font Styles and Attribute Options.txt",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/Audit Results JSON Format.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/AuditImages.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/AuditLinks.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/AuditText.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/PuppeteerStarterTemplate.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/UpdateWeeklyDates.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/index.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/CanvasImportResources.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/CanvasImportTest.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/docTest.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/PuppeteerReconnect.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/test.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/node_modules/ajv/scripts/bundle.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/AuditResults.txt",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/package.json",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/Audit Items.txt",
+		"/C/Users/victorid/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/victorid/AppData/Roaming/Sublime Text 3/Packages/User/Terminal (Windows).sublime-settings",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/CanvasAuditResults.txt",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/CanvasSearchModuleItems.js",
+		"/C/Users/victorid/Downloads/sample.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/PuppeteerTryCatchTest.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/CanvasCheckHomePearsonIds.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Puppeteer Sandbox/CanvasAddAdobeConnectMeeting.js",
+		"/C/Users/victorid/Links/Javascript.lnk",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/CanvasDeleteModuleItems.js",
+		"/Z/Private/victorid/Documents/General Workspace/Meeting Notes.txt",
+		"/Z/Private/victorid/Documents/General Workspace/Dates.txt",
+		"/Z/Private/victorid/Documents/General Workspace/Notes.txt",
+		"/C/Users/victorid/Documents/Projects/Puppeteer Sandbox/Canvas Links Audit Results.txt",
+		"/Z/Private/victorid/Documents/General Workspace/PearsonQuizPoolScraper.js",
+		"/C/Users/victorid/Downloads/Kinicki8e_Word_TestBank/Chapter 02 Test Bank.docx",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/CanvasAssignmentRubric.js",
+		"/C/Users/victorid/Documents/Projects/PearsonQuizPoolScraper.js",
+		"/C/Users/victorid/Google Drive/Programming Projects/VBA/DeleteParagraphs.vba",
+		"/Z/Private/victorid/Documents/General Workspace/Canvas Course Audit Results.txt",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/GetAssignmentDatesFromSyllabus.js",
+		"/C/Users/victorid/Documents/Projects/Puppeteer Sandbox/Pearson IDs Report.txt",
+		"/C/Users/victorid/Downloads/SPC3210 Entrance Quiz Pool.txt",
+		"/C/Users/victorid/Downloads/COM3461 Entrance Quiz Pool.txt",
+		"/Z/Private/victorid/Documents/General Workspace/Full Time Faculty.txt",
+		"/Z/Private/victorid/Documents/General Workspace/TurnitinFormHTML.html",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/BlackboardReplaceDates.js",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/POST-IRMA-ReplaceDatesCreatorPro.js",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/ReplaceDatesCreatorPro.js",
+		"/Z/Private/victorid/Documents/General Workspace/RemoveMatchingQuestionsFromSet.js",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/CanvasSubmitHotkey.user.js",
+		"/Z/Private/victorid/Documents/General Workspace/blackboardAPI.js",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/CanvasModifyModules.js",
+		"/Z/Private/victorid/Documents/General Workspace/miscJS.js",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/CanvasModulesPublishAll.js",
+		"/Z/Private/victorid/Documents/General Workspace/CanvasSaveHotkeySelectors.js",
+		"/Z/Private/victorid/Documents/General Workspace/CanvasAuthToken.txt",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/CanvasDeleteModules.js",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/CanvasCreatetModules.js",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/BbGetRubricContent.js",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/CanvasBackForwardHotkeys.js",
+		"/C/Users/victorid/Documents/Temp/results.json",
+		"/C/Users/victorid/Downloads/Self-Introduction Post Rubric.js",
+		"/C/Users/victorid/Documents/Temp/results2.json",
+		"/C/Users/victorid/AppData/Roaming/Sublime Text 3/Packages/User/sbc-setting.sublime-settings",
+		"/C/Users/victorid/AppData/Roaming/Sublime Text 3/Packages/Better Completion/sbc-setting.sublime-settings"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+			"C:\\Users\\victorid\\OneDrive - Florida International University\\Projects\\Canvas Audit",
+			"C:\\Users\\victorid\\Google Drive\\Programming Projects\\Javascript\\Misc",
+			"C:\\Users\\victorid\\Downloads\\WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168\\continents",
+			"C:\\Users\\victorid\\Documents\\World Explorer Project\\continents",
+			"C:\\Users\\victorid\\Documents\\World Explorer Project\\continents\\africa",
+			"africa"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"link",
+			"title",
+			"isReachable",
+			"pearsonRef",
+			"resolve(() => {\n                    return false;\n                });",
+			"initHandlebarsHelpers",
+			"initHJandlebarsHelpers",
+			"generateReport",
+			"var",
+			"<br>",
+			"            <",
+			"title",
+			"createIssue",
+			"'<span",
+			"hasPearsonReference",
+			"title",
+			"anchorText",
+			"title",
+			"prop",
+			"links",
+			"peop",
+			"title",
+			">\n",
+			"p",
+			"name:",
+			"name",
+			"504b 0304 1400",
+			"504b 0304 1400 0600 0800 0000 2100 0c4f",
+			"var",
+			"saveAs",
+			"JSZipUtils",
+			"var",
+			"async",
+			"#content .user_content",
+			".$",
+			".$$",
+			"dom.$",
+			"page",
+			"await",
+			"async",
+			"content.$",
+			"await",
+			"dpom",
+			"page",
+			"async",
+			"path",
+			"AuditLinks",
+			"AuditText",
+			"image",
+			"images",
+			"await",
+			"title",
+			".$$",
+			"page",
+			"fetch",
+			"async",
+			"Audit",
+			"auditImages",
+			"async",
+			"page",
+			"getResource",
+			"getModuleItems",
+			"results",
+			"moduleItems",
+			"moduleitem",
+			"href",
+			"moduleItem",
+			"results",
+			"promise.all",
+			"Promise.all",
+			"promise.all",
+			"base",
+			"auditImages",
+			"document",
+			"foo",
+			"page",
+			"*",
+			"=>",
+			"=> {",
+			": (",
+			"response",
+			"moduleItemDetails",
+			"item",
+			"async",
+			"getModuleItems",
+			"goto",
+			"content",
+			"await",
+			"courses",
+			"aduit",
+			"\\",
+			"launch",
+			"nodemon",
+			"launch",
+			"require('Puppeteer');",
+			"puppeteer",
+			"linux",
+			"windows",
+			"launchPuppeteer",
+			"login",
+			"launchPuppeteer",
+			"headless",
+			"MakeWordDoc",
+			"auditAllCaps",
+			"null",
+			"no alt",
+			"links:",
+			"let ",
+			"let",
+			"let ",
+			"var ",
+			"var",
+			"Var",
+			"name",
+			"title",
+			"content",
+			"500",
+			"1000",
+			"path",
+			"fs",
+			"docxcreator",
+			"gotoMenu",
+			"module not",
+			"linkAlt",
+			"auditLinks",
+			"\\",
+			"./node_modules/puppeteer",
+			");\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"require('puppeteer');",
+			"puppeteer/lib/Puppeteer",
+			"6022",
+			"5458",
+			"6021",
+			"",
+			"\n",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dist/CanvasAuditBuild.user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1121,
+								1121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2040,
+								2040
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 900.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "notes.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 103.0
+	},
+	"output.find_results":
+	{
+		"height": 470.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "Canvas-Audit-Userscript.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "node",
+		"selected_items":
+		[
+			[
+				"node",
+				"C:\\Users\\victorid\\OneDrive - Florida International University\\Projects\\Canvas Audit\\Node App\\canvas-audit.sublime-project"
+			],
+			[
+				"audit",
+				"C:\\Users\\victorid\\OneDrive - Florida International University\\Projects\\Canvas Audit\\Node App\\canvas-audit.sublime-project"
+			],
+			[
+				"canvas",
+				"C:\\Users\\victorid\\OneDrive - Florida International University\\Projects\\Canvas Quick Scripts\\canvas-quick-scripts.sublime-project"
+			],
+			[
+				"",
+				"C:\\Users\\victorid\\OneDrive - Florida International University\\Projects\\Canvas Audit\\Userscript\\Canvas-Audit-Userscript.sublime-project"
+			],
+			[
+				"ge",
+				"Z:\\Private\\victorid\\Documents\\General Workspace\\General Workspace.sublime-workspace"
+			],
+			[
+				"puppeteer",
+				"C:\\Users\\victorid\\Documents\\Projects\\Demo\\puppeteer_demo.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
