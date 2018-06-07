@@ -76,16 +76,14 @@ function receiveMessage(event) {
 
         document.title = `${event.data.title} Audit Report`;
 
-        let scriptElem = document.getElementById('entry-template');
+        let script = document.getElementById('entry-template');
 
-        fetch('https://raw.githubusercontent.com/tidusx18/canvas-audit/master/src/report/handlebars-template.hbs')
-        .then( data => data.text() )
-        .then( data => {
+        fetch('https://cdn.rawgit.com/tidusx18/canvas-audit/f049d66a/src/report/handlebars-template.hbs')
+        .then( response => response.text() )
+        .then( response => {
 
-            scriptElem.innerHTML = data;
-
-            let source   = document.getElementById("entry-template").innerHTML;
-            let template = Handlebars.compile(source);
+            let templateSource   = response;
+            let template = Handlebars.compile(templateSource);
             let html = template(event.data);
 
             document.body.innerHTML = html;
