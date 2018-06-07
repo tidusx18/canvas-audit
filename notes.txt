@@ -4,5 +4,5 @@ NOTES:
 [x] For "missing title" flag filter external links
 [x] Filter preview links
 [x] Link module item names
-[] Make URLs clickable in results
+[x] Make URLs clickable in results
 [] Adjust logic for "all caps"
