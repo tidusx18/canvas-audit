@@ -436,19 +436,10 @@
 	"buffers":
 	[
 		{
-			"file": "src/index.js",
-			"settings":
-			{
-				"buffer_size": 4441,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "notes.txt",
 			"settings":
 			{
-				"buffer_size": 255,
+				"buffer_size": 698,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -654,7 +645,9 @@
 	"file_history":
 	[
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/dist/CanvasAuditBuild.user.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/index.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/report/template.hbs",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/link/AuditLinks.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/report/generateReport.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/tidusx18.github.io/audit-results.html",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/report/template.html",
@@ -667,7 +660,6 @@
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/webpack.config.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/audit-userscript-headers.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/BuildResults.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/link/AuditLinks.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/tidusx18.github.io/generate-report.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/text/AuditText.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Quick Scripts/Canvas Delete All Question Banks.js",
@@ -779,8 +771,7 @@
 		"/Z/Private/victorid/Documents/General Workspace/miscJS.js",
 		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/CanvasModulesPublishAll.js",
 		"/Z/Private/victorid/Documents/General Workspace/CanvasSaveHotkeySelectors.js",
-		"/Z/Private/victorid/Documents/General Workspace/CanvasAuthToken.txt",
-		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/CanvasDeleteModules.js"
+		"/Z/Private/victorid/Documents/General Workspace/CanvasAuthToken.txt"
 	],
 	"find":
 	{
@@ -804,6 +795,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"<a",
 			"link",
 			"moduleItemTitle",
 			"data",
@@ -930,8 +922,7 @@
 			"1000",
 			"path",
 			"fs",
-			"docxcreator",
-			"gotoMenu"
+			"docxcreator"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -957,41 +948,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4441,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								666,
-								666
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -999,20 +957,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 0,
 					"file": "notes.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 255,
+						"buffer_size": 698,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								255,
-								255
+								698,
+								698
 							]
 						],
 						"settings":
@@ -1023,7 +981,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1137,7 +1095,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

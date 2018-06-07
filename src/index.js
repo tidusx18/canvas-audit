@@ -145,9 +145,9 @@ async function init() {
         }
     }
 
-    results.title = window.document.title;
     results.data = modules;
-    console.log(modules);
+    results.data.title = window.document.title;
+    console.log(results);
 
     window.addEventListener('message', (event) => {
 
