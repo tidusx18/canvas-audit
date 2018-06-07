@@ -355,8 +355,8 @@ function hasContextualAnchorText(link) {
 
     let text = link.innerText;
 
-    if (text && !/click here|http:\/\/|https:\/\/|www\./i.test(text)) { return true; }
-    if (text && /click here|http:\/\/|https:\/\/|www\./i.test(text)) { return false; }
+    if (text && !/click here|http:\/\/|https:\/\/|www\.|\.(?:com|net|org|io|gov|edu)/i.test(text)) { return true; }
+    if (text && /click here|http:\/\/|https:\/\/|www\.|\.(?:com|net|org|io|gov|edu)/i.test(text)) { return false; }
     if (!text) { return null; }
 }
 
