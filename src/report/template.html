@@ -8,10 +8,14 @@
       <div class="module-items">
       {{#each moduleItems}}
       {{#if published}}
-      <h3 class="module-item-title published">Published | {{type}} : {{#if html_url}}<a href={{html_url}}>{{/if}}{{title}}{{#if html_url}}</a>{{/if}}</h3>
+      {{#if html_url}}<a href={{html_url}}>{{/if}}
+      <h3 class="module-item-title published">Published | {{type}} : {{title}}</h3>
+      {{#if html_url}}</a>{{/if}}
       {{/if}}
       {{#unless published}}
-      <h3 class="module-item-title unpublished">Unpublished | {{type}} : {{#if html_url}}<a href={{html_url}}>{{/if}}{{title}}{{#if html_url}}</a>{{/if}}</h3>
+      {{#if html_url}}<a href={{html_url}}>{{/if}}
+      <h3 class="module-item-title unpublished">Unpublished | {{type}} : {{title}}</h3>
+      {{#if html_url}}</a>{{/if}}
       {{/unless}}
       {{#with auditResults}}
         <div class="audit-results">
