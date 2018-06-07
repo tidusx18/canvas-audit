@@ -1,8 +1,24 @@
 NOTES:
 
+Audit Script
+----
 [x] Add "in progress" overlay
 [x] For "missing title" flag filter external links
 [x] Filter preview links
 [x] Link module item names
 [x] Make URLs clickable in results
-[] Adjust logic for "all caps"
+[] Open URLs in new tabs
+[] Detect incorrect Canvas course ID in link href
+[] Adjust logic/heuristic for "all caps"
+[] Detect dates in text
+[] Include table of contents?
+[] Update CSS (make cleaner, more modern)?
+[] Review how PDF looks when using browser's "print" function (i.e. font size)
+[] Add "Save PDF" button/logic
+
+
+Readme.md
+----
+[] Add install instructions (include one-time permissions after first run)
+[] Add details about the report that's generated
+[] Add upcoming features/audit criteria
