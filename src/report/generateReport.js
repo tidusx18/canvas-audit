@@ -76,7 +76,7 @@ function receiveMessage(event) {
 
         document.title = `${event.data.title} Audit Report`;
 
-        fetch('https://cdn.rawgit.com/tidusx18/canvas-audit/f049d66a/src/report/handlebars-template.hbs')
+        fetch('https://raw.githubusercontent.com/tidusx18/canvas-audit/master/src/report/template.html')
         .then( response => response.text() )
         .then( response => {
 
