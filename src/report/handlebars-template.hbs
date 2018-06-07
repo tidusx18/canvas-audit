@@ -7,8 +7,12 @@
       <h2 class="module-title">{{name}}</h2>
       <div class="module-items">
       {{#each moduleItems}}
-      {{#if published}}<h3 class="module-item-title">Published | {{type}} : {{title}}</h3>{{/if}}
-      {{#unless published}}<h3 class="module-item-title">Unpublished | {{type}} : {{title}}</h3>{{/unless}}
+      {{#if published}}
+      <h3 class="module-item-title published">Published | {{type}} : {{#if html_url}}<a href={{html_url}}>{{/if}}{{title}}{{#if html_url}}</a>{{/if}}</h3>
+      {{/if}}
+      {{#unless published}}
+      <h3 class="module-item-title unpublished">Unpublished | {{type}} : {{#if html_url}}<a href={{html_url}}>{{/if}}{{title}}{{#if html_url}}</a>{{/if}}</h3>
+      {{/unless}}
       {{#with auditResults}}
         <div class="audit-results">
         {{#if videos}}<p class="notice">Review Video for Captions</p>{{/if}}
