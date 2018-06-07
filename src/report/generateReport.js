@@ -49,8 +49,8 @@ Handlebars.registerHelper('textWarnings', (warnings) => {
 
     if(warnings.allCaps) { html += 'Review for All Caps<br>' }
     if(warnings.fontFamily) { html += 'Review for Font Family<br>' }
-    if(warnings.fontFamily) { html += 'Review for Font Size<br>' }
-    if(warnings.fontFamily) { html += 'Review for Underlined Words' }
+    if(warnings.fontSize) { html += 'Review for Font Size<br>' }
+    if(warnings.underlinedWords) { html += 'Review for Underlined Words' }
 
     html += '</span>';
 

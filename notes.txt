@@ -8,6 +8,7 @@ Audit Script
 [x] Link module item names
 [x] Make URLs clickable in results
 [x] Open URLs in new tabs
+[] Filter preview images
 [] Detect incorrect Canvas course ID in link href
 [] Adjust logic/heuristic for "all caps"
 [] Detect dates in text

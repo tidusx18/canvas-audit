@@ -439,7 +439,7 @@
 			"file": "notes.txt",
 			"settings":
 			{
-				"buffer_size": 698,
+				"buffer_size": 723,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -640,7 +640,9 @@
 	[
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/report",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/text",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/tidusx18.github.io"
 	],
 	"file_history":
@@ -963,15 +965,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 698,
+						"buffer_size": 723,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								698,
-								698
+								723,
+								723
 							]
 						],
 						"settings":
