@@ -640,13 +640,14 @@
 	[
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/report",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/tidusx18.github.io"
 	],
 	"file_history":
 	[
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/dist/CanvasAuditBuild.user.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/index.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/report/template.hbs",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/dist/CanvasAuditBuild.user.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/link/AuditLinks.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/report/generateReport.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/tidusx18.github.io/audit-results.html",
@@ -1095,7 +1096,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
