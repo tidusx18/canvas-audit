@@ -76,13 +76,11 @@ function receiveMessage(event) {
 
         document.title = `${event.data.title} Audit Report`;
 
-        let script = document.getElementById('entry-template');
-
         fetch('https://cdn.rawgit.com/tidusx18/canvas-audit/f049d66a/src/report/handlebars-template.hbs')
         .then( response => response.text() )
         .then( response => {
 
-            let templateSource   = response;
+            let templateSource  = response;
             let template = Handlebars.compile(templateSource);
             let html = template(event.data);
 
