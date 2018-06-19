@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Canvas Util: Audit Course
 // @namespace    http://github.com/tidusx18
-// @version      0.0.2
+// @version      0.0.1
 // @description  Audits a Canvas course for ADA criteria and generates a report.
 // @author       Daniel Victoriano <victoriano518@gmail.com>
 // @include      /https:\/\/fiu\.instructure\.com/courses/\d{1,8}$/
@@ -522,7 +522,7 @@ module.exports = AuditText;
 
 function AuditVideo(dom) {
 
-	let videoSources = /vivo|egnyte|youtube|vimeo|lynda/i;
+	let videoSources = /vivo|youtube|vimeo|lynda|kaltura/i;
 
 	// check dom
 	if( dom.querySelector('video') ) { return true; }
