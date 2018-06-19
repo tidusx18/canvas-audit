@@ -74,7 +74,7 @@ function receiveMessage(event) {
 
         if (event.origin !== 'https://fiu.instructure.com') { return; }
 
-        document.title = `${event.data.title} Audit Report`;
+        document.title = `${event.data.data.title} Audit Report`;
 
         fetch('https://raw.githubusercontent.com/tidusx18/canvas-audit/master/src/report/template.hbs')
         .then( response => response.text() )
