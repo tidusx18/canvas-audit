@@ -1,6 +1,6 @@
 function AuditVideo(dom) {
 
-	let videoSources = /vivo|egnyte|youtube|vimeo|lynda/i;
+	let videoSources = /vivo|youtube|vimeo|lynda|kaltura/i;
 
 	// check dom
 	if( dom.querySelector('video') ) { return true; }
