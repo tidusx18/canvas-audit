@@ -436,10 +436,13 @@
 	"buffers":
 	[
 		{
+			"contents": "NOTES:\n\nAudit Script\n----\n[x] Add \"in progress\" overlay\n[x] For \"missing title\" flag filter external links\n[x] Filter preview links\n[x] Link module item names\n[x] Make URLs clickable in results\n[x] Open URLs in new tabs\n[x] Update landing page head script generateReport to dev RawGit\n[] Filter preview images\n[] Detect incorrect Canvas course ID in link href\n[] Adjust logic/heuristic for \"all caps\"\n[] Detect dates in text\n[] Include table of contents?\n[] Update CSS (make cleaner, more modern)?\n[] Review how PDF looks when using browser's \"print\" function (i.e. font size)\n[] Add \"Save PDF\" button/logic\n[] Add report results filter (i.e. results with broken links, underlined words, etc)\n[] Check for issue with empty modules making script prematurely complete ****\n\n\nReadme.md\n----\n[] Add install instructions (include one-time permissions after first run)\n[] Add details about the report that's generated\n[] Add upcoming features/audit criteria",
 			"file": "notes.txt",
+			"file_size": 977,
+			"file_write_time": 131728800117666079,
 			"settings":
 			{
-				"buffer_size": 950,
+				"buffer_size": 951,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -638,17 +641,20 @@
 	},
 	"expanded_folders":
 	[
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/report",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/tidusx18.github.io"
 	],
 	"file_history":
 	[
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/report/generateReport.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/report/template.hbs",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/tidusx18.github.io/audit-results.html",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/index.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/text/AuditText.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/dist/CanvasAuditBuild.user.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Quick Scripts/Canvas Delete All Question Banks.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/report/generateReport.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/report/template.hbs",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/link/AuditLinks.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/report/template.html",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/readme.md",
@@ -790,9 +796,13 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			"conte",
+			"contextual",
+			"contex",
+			"contextualAnchorText",
 			"<a",
 			"link",
 			"moduleItemTitle",
@@ -916,11 +926,7 @@
 			"name",
 			"title",
 			"content",
-			"500",
-			"1000",
-			"path",
-			"fs",
-			"docxcreator"
+			"500"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -960,15 +966,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 950,
+						"buffer_size": 951,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								950,
-								950
+								222,
+								222
 							]
 						],
 						"settings":

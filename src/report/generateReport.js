@@ -17,6 +17,7 @@ Handlebars.registerHelper('hasAlt', (alt) => {
 
 Handlebars.registerHelper('isContextual', (isContextual) => {
 
+    if(isContextual === null) { return `<li style="color: green;">Linked Image</li>`; }
     if(!isContextual) { return `<li>${createIssue('Not Contextual')}</li>`; }
 
 });
