@@ -67,9 +67,12 @@ course = {
 
             case 'Assignment':
             case 'Quiz':
-            case 'Discussion':
 
                 return moduleItem.content.description;
+
+            case 'Discussion':
+
+                return moduleItem.content.assignment.description;
         }
     },
 
