@@ -72,7 +72,7 @@ course = {
 
             case 'Discussion':
 
-                return moduleItem.content.assignment.description;
+                return moduleItem.content.message;
         }
     },
 
