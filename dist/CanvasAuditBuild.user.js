@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Canvas Util: Audit Course
 // @namespace    http://github.com/tidusx18
-// @version      0.0.3
+// @version      0.0.5
 // @description  Audits a Canvas course for ADA criteria and generates a report.
 // @author       Daniel Victoriano <victoriano518@gmail.com>
 // @include      /https:\/\/fiu\.instructure\.com/courses/\d{1,8}$/
@@ -123,6 +123,7 @@ course = {
                 case 'Assignment':
                 case 'Page':
                 case 'Quiz':
+                case 'Discussion':
 
                     moduleItem.content = await getResource(moduleItem.url);
                     results.push(moduleItem);
@@ -152,6 +153,7 @@ course = {
 
             case 'Assignment':
             case 'Quiz':
+            case 'Discussion':
 
                 return moduleItem.content.description;
         }

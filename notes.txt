@@ -8,17 +8,21 @@ Audit Script
 [x] Link module item names
 [x] Make URLs clickable in results
 [x] Open URLs in new tabs
-[] Update landing page head script generateReport to dev RawGit
-[] Filter preview images
+[x] Update landing page head script generateReport to dev RawGit
+[] Filter preview images??
 [] Detect incorrect Canvas course ID in link href
 [] Adjust logic/heuristic for "all caps"
 [] Detect dates in text
-[] Include table of contents?
+[] Detect Blackboard references in text
+[] Include table of contents || summary of issues?
 [] Update CSS (make cleaner, more modern)?
 [] Review how PDF looks when using browser's "print" function (i.e. font size)
-[] Add "Save PDF" button/logic
+[] Add "Save PDF" button
 [] Add report results filter (i.e. results with broken links, underlined words, etc)
 [] Check for issue with empty modules making script prematurely complete ****
+[] Check for non-contextual links for links that ONLY include the anchor text "link" or similar
+[] Update font-size logic to include specific boundaries (min/max) sizes that are tolerable
+[] Check supported video embed sources for captions
 
 
 Readme.md

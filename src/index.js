@@ -37,6 +37,7 @@ course = {
                 case 'Assignment':
                 case 'Page':
                 case 'Quiz':
+                case 'Discussion':
 
                     moduleItem.content = await getResource(moduleItem.url);
                     results.push(moduleItem);
@@ -66,6 +67,7 @@ course = {
 
             case 'Assignment':
             case 'Quiz':
+            case 'Discussion':
 
                 return moduleItem.content.description;
         }
