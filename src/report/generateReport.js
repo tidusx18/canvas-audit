@@ -51,7 +51,21 @@ Handlebars.registerHelper('textWarnings', (warnings) => {
     if(warnings.allCaps) { html += 'Review for All Caps<br>' }
     if(warnings.fontFamily) { html += 'Review for Font Family<br>' }
     if(warnings.fontSize) { html += 'Review for Font Size<br>' }
-    if(warnings.underlinedWords) { html += 'Review for Underlined Words' }
+    if(warnings.underlinedWords) { html += 'Review for Underlined Words<br>' }
+    if(warnings.blackboardReference) { html += 'Review for Blackboard References in Text' }
+
+    html += '</span>';
+
+    return html;
+
+});
+
+
+Handlebars.registerHelper('tableWarning', (hasTable) => {
+
+    let html = '<span class="issue">';
+
+    if(hasTable) { html += 'Review for <table> in HTML<br>' }
 
     html += '</span>';
 

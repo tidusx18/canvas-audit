@@ -23,6 +23,10 @@ Audit Script
 [] Check for non-contextual links for links that ONLY include the anchor text "link" or similar
 [] Update font-size logic to include specific boundaries (min/max) sizes that are tolerable
 [] Check supported video embed sources for captions
+[] Check for broken images
+
+[] Check text for Blackboard references and tables ****URGENT****
+[] Check embedded Vivo videos for captions
 
 
 Readme.md

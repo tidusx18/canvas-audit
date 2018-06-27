@@ -11,7 +11,7 @@ function AuditText(dom) {
 	results.underlinedWords = auditUnderlined(content);
 	results.fontFamily = auditFontFamily(content);
 	results.fontSize = auditFontSize(content);
-	// results.blackboardReferences = auditBbReferences(content);
+	results.blackboardReferences = auditBbReferences(content);
 
 	} catch(err) {
 		console.log('ERROR: ', err, '\n')
@@ -25,23 +25,23 @@ function getContent(dom) {
 	return dom;
 }
 
-function auditCaps(content) {
+// function auditCaps(content) {
 
-	const text = content.querySelector('body').innerText;
-	const blocks = text.trim().match(/.+$/gm);
-	const threshold = 30;
+// 	const text = content.querySelector('body').innerText;
+// 	const blocks = text.trim().match(/.+$/gm);
+// 	const threshold = 30;
 
-	for(let i=1; i<blocks.length; i++) {
+// 	for(let i=1; i<blocks.length; i++) {
 
-		let totalchars = blocks[i].match(/\w/g) || [];
-		let caps = blocks[i].match(/[A-Z]/g) || [];
-		let percentage = Math.round( (caps.length / totalchars.length) * 100 );
+// 		let totalchars = blocks[i].match(/\w/g) || [];
+// 		let caps = blocks[i].match(/[A-Z]/g) || [];
+// 		let percentage = Math.round( (caps.length / totalchars.length) * 100 );
 
-		if(percentage >= threshold)	{ return true; }
-	}
+// 		if(percentage >= threshold)	{ return true; }
+// 	}
 
-	return false;
-}
+// 	return false;
+// }
 
 function auditUnderlined(content) {
 
@@ -62,6 +62,14 @@ function auditFontSize(content) {
 	let hasUserDefinedFontSize = content.querySelector('*[style*=font-size]');
 
 	return hasUserDefinedFontSize ? true : false;
+}
+
+function auditBbReferences(content) {
+
+	let regex = new RegExp('blackboard|black board', 'i')
+	let hasBlackboardReference = regex.test(content.body.innerText) ? true : false;
+
+	return hasBlackboardReference ? true : false;
 }
 
 // function auditSpelling(content) {
@@ -94,11 +102,6 @@ function auditFontSize(content) {
 // 	if(results.length > 0) { return results; }
 
 // 	return null;
-// }
-
-// function auditBbReferences(content) {
-
-// 	return false;
 // }
 
 module.exports = AuditText;

@@ -2,6 +2,7 @@ const auditImages = require('./api/audit/image/AuditImages.js');
 const auditLinks = require('./api/audit/link/AuditLinks.js');
 const auditText = require('./api/audit/text/AuditText.js');
 const auditVideos = require('./api/audit/video/AuditVideo.js');
+const auditTables = require('./api/audit/table/AuditTables.js')
 
 course = {
 
@@ -84,6 +85,7 @@ course = {
         results.links = await auditLinks(dom);
         results.text = auditText(dom);
         results.videos = auditVideos(dom);
+        results.tables = auditTables(dom);
 
         return results;
     }

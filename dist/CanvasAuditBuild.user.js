@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Canvas Util: Audit Course
 // @namespace    http://github.com/tidusx18
-// @version      0.0.5
+// @version      0.0.6
 // @description  Audits a Canvas course for ADA criteria and generates a report.
 // @author       Daniel Victoriano <victoriano518@gmail.com>
 // @include      /https:\/\/fiu\.instructure\.com/courses/\d{1,8}$/
@@ -88,6 +88,7 @@ const auditImages = __webpack_require__(1);
 const auditLinks = __webpack_require__(2);
 const auditText = __webpack_require__(3);
 const auditVideos = __webpack_require__(4);
+const auditTables = __webpack_require__(5)
 
 course = {
 
@@ -170,6 +171,7 @@ course = {
         results.links = await auditLinks(dom);
         results.text = auditText(dom);
         results.videos = auditVideos(dom);
+        results.tables = auditTables(dom);
 
         return results;
     }
@@ -429,7 +431,7 @@ function AuditText(dom) {
 	results.underlinedWords = auditUnderlined(content);
 	results.fontFamily = auditFontFamily(content);
 	results.fontSize = auditFontSize(content);
-	// results.blackboardReferences = auditBbReferences(content);
+	results.blackboardReferences = auditBbReferences(content);
 
 	} catch(err) {
 		console.log('ERROR: ', err, '\n')
@@ -443,23 +445,23 @@ function getContent(dom) {
 	return dom;
 }
 
-function auditCaps(content) {
+// function auditCaps(content) {
 
-	const text = content.querySelector('body').innerText;
-	const blocks = text.trim().match(/.+$/gm);
-	const threshold = 30;
+// 	const text = content.querySelector('body').innerText;
+// 	const blocks = text.trim().match(/.+$/gm);
+// 	const threshold = 30;
 
-	for(let i=1; i<blocks.length; i++) {
+// 	for(let i=1; i<blocks.length; i++) {
 
-		let totalchars = blocks[i].match(/\w/g) || [];
-		let caps = blocks[i].match(/[A-Z]/g) || [];
-		let percentage = Math.round( (caps.length / totalchars.length) * 100 );
+// 		let totalchars = blocks[i].match(/\w/g) || [];
+// 		let caps = blocks[i].match(/[A-Z]/g) || [];
+// 		let percentage = Math.round( (caps.length / totalchars.length) * 100 );
 
-		if(percentage >= threshold)	{ return true; }
-	}
+// 		if(percentage >= threshold)	{ return true; }
+// 	}
 
-	return false;
-}
+// 	return false;
+// }
 
 function auditUnderlined(content) {
 
@@ -480,6 +482,14 @@ function auditFontSize(content) {
 	let hasUserDefinedFontSize = content.querySelector('*[style*=font-size]');
 
 	return hasUserDefinedFontSize ? true : false;
+}
+
+function auditBbReferences(content) {
+
+	let regex = new RegExp('blackboard|black board', 'i')
+	let hasBlackboardReference = regex.test(content.body.innerText) ? true : false;
+
+	return hasBlackboardReference ? true : false;
 }
 
 // function auditSpelling(content) {
@@ -512,11 +522,6 @@ function auditFontSize(content) {
 // 	if(results.length > 0) { return results; }
 
 // 	return null;
-// }
-
-// function auditBbReferences(content) {
-
-// 	return false;
 // }
 
 module.exports = AuditText;
@@ -559,6 +564,40 @@ function getLinks(dom) {
 }
 
 module.exports = AuditVideo;
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports) {
+
+function AuditTables(dom) {
+
+	let body = dom.body;
+	// let results = {};
+
+	if(!body) { return null; }
+
+	try {
+
+	return auditTables(body);
+	// let hasTable = auditTables(body);
+
+	// return hasTable ? true : false;
+
+	} catch(err) {
+		console.log('ERROR: ', err, '\n')
+	}
+
+	// return results;
+}
+
+function auditTables(body) {
+
+	let hastables = body.querySelector('table');
+
+	return hastables ? true : false;
+}
+
+module.exports = AuditTables;
 
 /***/ })
 /******/ ]);

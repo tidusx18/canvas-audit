@@ -436,11 +436,31 @@
 	"buffers":
 	[
 		{
-			"file": "notes.txt",
+			"file": "src/index.js",
 			"settings":
 			{
-				"buffer_size": 951,
+				"buffer_size": 4565,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dist/CanvasAuditBuild.user.js",
+			"settings":
+			{
+				"buffer_size": 13624,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "NOTES:\n\nAudit Script\n----\n[x] Add \"in progress\" overlay\n[x] For \"missing title\" flag filter external links\n[x] Filter preview links\n[x] Link module item names\n[x] Make URLs clickable in results\n[x] Open URLs in new tabs\n[x] Update landing page head script generateReport to dev RawGit\n[] Filter preview images??\n[] Detect incorrect Canvas course ID in link href\n[] Adjust logic/heuristic for \"all caps\"\n[] Detect dates in text\n[] Detect Blackboard references in text\n[] Include table of contents || summary of issues?\n[] Update CSS (make cleaner, more modern)?\n[] Review how PDF looks when using browser's \"print\" function (i.e. font size)\n[] Add \"Save PDF\" button\n[] Add report results filter (i.e. results with broken links, underlined words, etc)\n[] Check for issue with empty modules making script prematurely complete ****\n[] Check for non-contextual links for links that ONLY include the anchor text \"link\" or similar\n[] Update font-size logic to include specific boundaries (min/max) sizes that are tolerable\n[] Check supported video embed sources for captions\n[] Check for broken images\n\n \nReadme.md\n----\n[] Add install instructions (include one-time permissions after first run)\n[] Add details about the report that's generated\n[] Add upcoming features/audit criteria",
+			"file": "notes.txt",
+			"file_size": 1307,
+			"file_write_time": 131740789365342761,
+			"settings":
+			{
+				"buffer_size": 1276,
 				"line_ending": "Windows"
 			}
 		}
@@ -457,12 +477,16 @@
 		"selected_items":
 		[
 			[
-				"hand",
-				"Set Syntax: Handlebars"
-			],
-			[
 				"js",
 				"Set Syntax: JavaScript"
+			],
+			[
+				"pl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"hand",
+				"Set Syntax: Handlebars"
 			],
 			[
 				"html",
@@ -523,10 +547,6 @@
 			[
 				"hmtl",
 				"Set Syntax: HTML"
-			],
-			[
-				"pl",
-				"Set Syntax: Plain Text"
 			],
 			[
 				"indent",
@@ -641,20 +661,19 @@
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/dist",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/userscript-headers",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/tidusx18.github.io"
 	],
 	"file_history":
 	[
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/userscript-headers/audit-userscript-headers.js",
+		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/index.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Quick Scripts/Userscripts/FilterCanvasCourseList.user.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/video/AuditVideo.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/dist/CanvasAuditBuild.user.js",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/userscript-headers/audit-userscript-headers.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/report/generateReport.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/report/template.hbs",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/tidusx18.github.io/audit-results.html",
-		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/index.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/text/AuditText.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Quick Scripts/Canvas Delete All Question Banks.js",
 		"/C/Users/victorid/OneDrive - Florida International University/Projects/Canvas Audit/Userscript/src/api/audit/link/AuditLinks.js",
@@ -778,7 +797,7 @@
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -798,6 +817,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"':",
+			"https",
+			":",
+			"https",
+			":",
+			"blackboa",
+			"font",
 			"conte",
 			"contextual",
 			"contex",
@@ -918,14 +944,7 @@
 			"links:",
 			"let ",
 			"let",
-			"let ",
-			"var ",
-			"var",
-			"Var",
-			"name",
-			"title",
-			"content",
-			"500"
+			"let "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -951,8 +970,71 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4565,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2188,
+								2188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1170.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dist/CanvasAuditBuild.user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								13624
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -960,20 +1042,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 0,
+					"buffer": 2,
 					"file": "notes.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 951,
+						"buffer_size": 1276,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								951,
-								951
+								1097,
+								1097
 							]
 						],
 						"settings":
@@ -1018,7 +1100,7 @@
 		"cols":
 		[
 			0.0,
-			0.509163103238,
+			0.54147258705,
 			1.0
 		],
 		"rows":
@@ -1098,14 +1180,14 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 283.0,
 	"status_bar_visible": true,
 	"template_settings":
