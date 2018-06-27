@@ -65,7 +65,7 @@ Handlebars.registerHelper('tableWarning', (tables) => {
 
     let html = '<span class="issue">';
 
-    if(tables) { html += 'Review for <table> in HTML<br>' }
+    if(tables) { html += 'Review for tables in HTML<br>' }
 
     html += '</span>';
 
