@@ -95,7 +95,7 @@ course = {
 
 function getResource(url) {
 
-    return fetch(url, {
+    return fetch(`${url}?per_page=80`, {
             credentials: 'same-origin'
         })
         .then((data) => data.text())
