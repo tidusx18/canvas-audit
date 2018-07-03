@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Canvas Util: Audit Course
 // @namespace    http://github.com/tidusx18
-// @version      0.0.6
-// @description  Audits a Canvas course for ADA criteria and generates a report.
+// @version      0.0.7
+// @description  Audits a Canvas course for ADA and other criteria and generates a report.
 // @author       Daniel Victoriano <victoriano518@gmail.com>
 // @include      /https:\/\/fiu\.instructure\.com/courses/\d{1,8}$/
 // @grant        GM_xmlhttpRequest
@@ -181,7 +181,7 @@ course = {
 
 function getResource(url) {
 
-    return fetch(url, {
+    return fetch(`${url}?per_page=80`, {
             credentials: 'same-origin'
         })
         .then((data) => data.text())
